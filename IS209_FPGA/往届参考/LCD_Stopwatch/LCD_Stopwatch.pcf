@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map K.31 on Tue Mar 23 15:19:20 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clock" LOCATE = SITE "C9" LEVEL 1;
+COMP "LCD_E" LOCATE = SITE "M18" LEVEL 1;
+COMP "reset" LOCATE = SITE "D18" LEVEL 1;
+COMP "LCD_RS" LOCATE = SITE "L18" LEVEL 1;
+COMP "LCD_RW" LOCATE = SITE "L17" LEVEL 1;
+COMP "restart" LOCATE = SITE "N17" LEVEL 1;
+COMP "SF_D<0>" LOCATE = SITE "R15" LEVEL 1;
+COMP "SF_D<1>" LOCATE = SITE "R16" LEVEL 1;
+COMP "SF_D<2>" LOCATE = SITE "P17" LEVEL 1;
+COMP "SF_D<3>" LOCATE = SITE "M15" LEVEL 1;
+COMP "SF_CE0" LOCATE = SITE "D16" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
